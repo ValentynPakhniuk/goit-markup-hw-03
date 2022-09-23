@@ -139,6 +139,10 @@ margin-right: 93px;
     padding-bottom: 94px;
 }
 
+.development {
+    padding-top: 0;
+}
+
 .hero > .container {
     padding-top: 106px;
     padding-bottom: 106px;
