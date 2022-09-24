@@ -205,7 +205,7 @@ margin-right: 93px;
     margin-right: calc( -1 * var(--indent-number));
 }
 
-.feature-list > .text-list {
+.text-list {
     margin-right: var(--indent-number);
     flex-basis: calc(100% / 4 - var(--indent-number));
 }
@@ -267,15 +267,13 @@ margin-right: 93px;
     margin-top: 50px;
 }
 
-.list-team > .text-list-team {
+.text-list-team {
     margin-right: var(--indent-number);
     flex-basis: calc(100% / 4 - var(--indent-number));
-}
-
-.text-list-team {
     background: var(--active-color);
-    border: 1px solid #eee;
-    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2);
+    background: var(--active-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .title-name {
@@ -340,12 +338,10 @@ margin-right: 93px;
     background-color: var(--accent-color);
 }
 
-.card { 
-    border: 1px solid #eee;
-}
-
 .card-content {
     padding: 20px 24px;
+    background: var(--active-color);
+    border: 1px solid #eee;
 }
 
 .title-text-project {
@@ -365,9 +361,6 @@ margin-right: 93px;
 /*-----------------------------------------ПІДВАЛ------------------------------------------------*/
 .footer {
     background: #2f303a;
-}
-
-.footer {
     padding-top: 60px;
     padding-bottom: 60px;
 }
