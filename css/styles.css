@@ -330,6 +330,7 @@ margin-right: 93px;
     color: var(--title-text-color);
     padding:  6px 22px;
     border-radius: 4px;
+    border: 0;
 }
 
 .button-filter:hover,
